@@ -193,14 +193,16 @@ p {
     text-align: center;
 }
 
-#about {
-    padding: 20px;
-    overflow: auto;
-}
-
 #main-footer p {
     padding: 40px;
     margin: 0;
+}
+
+/*  About page */
+
+#about {
+    padding: 20px;
+    overflow: auto;
 }
 
 #about-content {
@@ -250,6 +252,45 @@ p {
     width: 100px;
     margin-right: 15px;
     border-radius: 50%;
+}
+
+/* Contact page */
+
+#contact-form {
+    width: 1100px;
+    padding: 50px;
+    margin: auto;
+}
+
+#contact-form span {
+    color: #f7c08a;
+}
+
+#contact-form label {
+    display: block;
+}
+
+#contact-form input {
+    width: 100%;
+    padding: 10px;
+    border: #333 1px solid;
+    border-radius: 5px;
+}
+
+#contact-form textarea {
+
+    width: 100%;
+    padding: 10px;
+    border: #333 1px solid;
+    border-radius: 5px;
+
+}
+
+.contact-box {
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+    float: left;
 }
 
 
